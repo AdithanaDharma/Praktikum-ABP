@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>anu</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+</head>
+
+<body class="text-light" style="font-family: 'Poppins', sans-serif; overflow-x: hidden;">
+
+  <div class="position-fixed top-0 start-0 w-100 h-100" style="background: url('background.png') center/cover no-repeat fixed; z-index: -2;"></div>
+  <div class="position-fixed top-0 start-0 w-100 h-100 bg-black opacity-75" style="z-index: -1;"></div>
+
+  <div class="position-relative z-1">
+
+    <section id="hero" class="min-vh-100 d-flex align-items-center justify-content-center text-center pt-5">
+      <div class="container">
+        <img src="bulan.png" alt="Bulan Ramadan" class="img-fluid mb-3" style="max-width: 130px;" />
+        <h1 class="text-warning display-1 fw-bold mb-2 shadow-sm" style="font-family: 'Amiri', serif;">رَمَضَانَ مُبَارَك</h1>
+        <p class="fs-5 text-success mb-3" style="letter-spacing: .08em;">Ramadan Mubarak — Selamat Menunaikan Ibadah Puasa</p>
+        <hr class="border-warning border-2 opacity-75 w-50 mx-auto" />
+        <p class="mt-3 text-white-50 fst-italic fs-5">"Puasa adalah perisai. Apabila salah seorang di antara kalian berpuasa, janganlah berkata kotor dan janganlah bertindak bodoh. Jika ada orang lain yang mengajak bertengkar atau mencacinya, maka katakanlah: 'Sesungguhnya saya sedang berpuasa'"</p>
+        <p class="text-warning small">— HR. Bukhari &amp; Muslim</p>
+        <a href="#countdown-section" class="d-inline-block mt-4 text-warning fs-2 text-decoration-none">
+          <i class="bi bi-chevron-double-down"></i>
+        </a>
+      </div>
+    </section>
+
+    <section id="countdown-section" class="py-5">
+      <div class="container">
+        <h2 class="text-center text-warning mb-1 display-6" style="font-family:'Amiri',serif;">Menuju Akhir Ramadan</h2>
+        <p class="text-center text-white-50 small mb-4">Bersiaplah ditanyain kapan lulus, kerja dimana, kapan nikah</p>
+        
+          <div class="d-flex justify-content-center gap-3 flex-wrap">
+            <div class="border border-warning border-opacity-50 rounded-3 bg-warning bg-opacity-10 px-3 py-3 text-center" style="min-width: 80px;">
+              <div class="display-5 fw-bold text-warning lh-1" id="cd-days">00</div>
+              <div class="text-uppercase text-secondary small mt-1" style="letter-spacing: .15em;">Hari</div>
+            </div>
+            <div class="border border-warning border-opacity-50 rounded-3 bg-warning bg-opacity-10 px-3 py-3 text-center" style="min-width: 80px;">
+              <div class="display-5 fw-bold text-warning lh-1" id="cd-hours">00</div>
+              <div class="text-uppercase text-secondary small mt-1" style="letter-spacing: .15em;">Jam</div>
+            </div>
+            <div class="border border-warning border-opacity-50 rounded-3 bg-warning bg-opacity-10 px-3 py-3 text-center" style="min-width: 80px;">
+              <div class="display-5 fw-bold text-warning lh-1" id="cd-mins">00</div>
+              <div class="text-uppercase text-secondary small mt-1" style="letter-spacing: .15em;">Menit</div>
+            </div>
+            <div class="border border-warning border-opacity-50 rounded-3 bg-warning bg-opacity-10 px-3 py-3 text-center" style="min-width: 80px;">
+              <div class="display-5 fw-bold text-warning lh-1" id="cd-secs">00</div>
+              <div class="text-uppercase text-secondary small mt-1" style="letter-spacing: .15em;">Detik</div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <h2 class="text-center text-warning mb-5 display-6" style="font-family:'Amiri',serif;">Pilar Ramadan</h2>
+        <div class="row g-4">
+          <div class="col-sm-6 col-lg-3">
+            <div class="card h-100 bg-dark bg-opacity-50 border-warning border-opacity-25 text-center shadow-sm">
+              <div class="card-body p-4">
+                <img src="sahur.png" alt="Sahur" class="img-fluid mb-3" style="max-height: 150px;" />
+                <h5 class="card-title text-warning">Sahur</h5>
+                <p class="card-text text-white-50 small mb-0">Makan sahur sebelum fajar untuk mendapat keberkahan dan kekuatan menjalani hari.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="card h-100 bg-dark bg-opacity-50 border-warning border-opacity-25 text-center shadow-sm">
+              <div class="card-body p-4">
+                <img src="quran.png" alt="Al-Quran" class="img-fluid mb-3" style="max-height: 150px;" />
+                <h5 class="card-title text-warning">Tadarus</h5>
+                <p class="card-text text-white-50 small mb-0">Membaca dan memaknai Al-Qur'an setiap hari adalah amalan utama di bulan penuh berkah.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="card h-100 bg-dark bg-opacity-50 border-warning border-opacity-25 text-center shadow-sm">
+              <div class="card-body p-4">
+                <img src="taraweh.png" alt="Tarawih" class="img-fluid mb-3" style="max-height: 150px;" />
+                <h5 class="card-title text-warning">Tarawih</h5>
+                <p class="card-text text-white-50 small mb-0">Sholat tarawih bersama di masjid memperkuat silaturahmi dan kekhusyuan ibadah malam.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="card h-100 bg-dark bg-opacity-50 border-warning border-opacity-25 text-center shadow-sm">
+              <div class="card-body p-4">
+                <img src="zakat.png" alt="Zakat" class="img-fluid mb-3" style="max-height: 150px;" />
+                <h5 class="card-title text-warning">Zakat &amp; Sedekah</h5>
+                <p class="card-text text-white-50 small mb-0">Berbagi kepada sesama memurnikan harta dan melipatgandakan pahala di bulan mulia ini.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            <h2 class="text-center text-warning mb-1 display-6" style="font-family:'Amiri',serif;">Jadwal Imsak & Sholat</h2>
+            <p class="text-center text-white-50 small mb-4">Sumpiuh, Jawa Tengah — Hari ini</p>
+            
+            <div class="bg-dark bg-opacity-50 border border-warning border-opacity-25 rounded-4 overflow-hidden shadow-sm">
+              <div class="table-responsive">
+                <table class="table table-borderless align-middle text-light mb-0" style="--bs-table-bg: transparent; --bs-table-color: white;">
+                  <thead class="bg-black bg-opacity-50 border-bottom border-warning border-opacity-25">
+                  </thead>
+                  <tbody>
+                    <tr id="pr-imsak" class="border-bottom border-warning border-opacity-10">
+                      <td class="py-3 px-4 text-start">
+                        <span class="fw-semibold text-warning d-flex align-items-center gap-3">
+                          <img src="imsyak.png" alt="" style="width:100px; height:100px; object-fit:contain;" /> Imsak
+                        </span>
+                      </td>
+                      <td class="py-3 px-4 text-end fw-bold fs-5">04:21</td>
+                    </tr>
+                    <tr id="pr-subuh" class="border-bottom border-warning border-opacity-10">
+                      <td class="py-3 px-4 text-start">
+                        <span class="fw-semibold text-warning d-flex align-items-center gap-3">
+                          <img src="subuh.png" alt="" style="width:100px; height:100px; object-fit:contain;" /> Subuh
+                        </span>
+                      </td>
+                      <td class="py-3 px-4 text-end fw-bold fs-5">04:31</td>
+                    </tr>
+                    <tr id="pr-dzuhur" class="border-bottom border-warning border-opacity-10">
+                      <td class="py-3 px-4 text-start">
+                        <span class="fw-semibold text-warning d-flex align-items-center gap-3">
+                          <img src="dzuhur.png" alt="" style="width:100px; height:100px; object-fit:contain;" /> Dzuhur
+                        </span>
+                      </td>
+                      <td class="py-3 px-4 text-end fw-bold fs-5">11:56</td>
+                    </tr>
+                    <tr id="pr-ashar" class="border-bottom border-warning border-opacity-10">
+                      <td class="py-3 px-4 text-start">
+                        <span class="fw-semibold text-warning d-flex align-items-center gap-3">
+                          <img src="ahsar.png" alt="" style="width:100px; height:100px; object-fit:contain;" /> Ashar
+                        </span>
+                      </td>
+                      <td class="py-3 px-4 text-end fw-bold fs-5">15:02</td>
+                    </tr>
+                    <tr id="pr-maghrib" class="border-bottom border-warning border-opacity-10">
+                      <td class="py-3 px-4 text-start">
+                        <span class="fw-semibold text-warning d-flex align-items-center gap-3">
+                          <img src="maghrib.png" alt="" style="width:100px; height:100px; object-fit:contain;" /> Maghrib
+                        </span>
+                      </td>
+                      <td class="py-3 px-4 text-end fw-bold fs-5">18:00</td>
+                    </tr>
+                    <tr id="pr-isya">
+                      <td class="py-3 px-4 text-start">
+                        <span class="fw-semibold text-warning d-flex align-items-center gap-3">
+                          <img src="isya.png" alt="" style="width:100px; height:100px; object-fit:contain;" /> Isya
+                        </span>
+                      </td>
+                      <td class="py-3 px-4 text-end fw-bold fs-5">19:09</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 text-center">
+      <div class="container">
+        <p class="text-white-50 text-uppercase small mb-2" style="letter-spacing:.25em;">Event limited</p>
+        <h2 class="text-warning mb-3 display-6" style="font-family:'Amiri',serif;">Hadiah Event limited tahunan</h2>
+        <p class="text-white-50 mb-3">Klik amplop di bawah untuk mengetahui hadiah gacha spesialmu!</p>
+        <img src="surat.png" alt="Amplop THR" class="img-fluid mb-3" style="max-height: 100px;" />
+        <br/>
+        <button class="btn btn-warning btn-lg rounded-pill fw-bold px-5 py-3 shadow" data-bs-toggle="modal" data-bs-target="#thrModal">
+          <i class="bi bi-envelope-heart-fill me-2 fs-5"></i>Buka Amplop
+        </button>
+        <p class="text-white-50 small mt-3">cuma bercanda ya...</p>
+      </div>
+    </section>
+
+    <footer class="py-4 text-center bg-black bg-opacity-50">
+      <p class="text-white-50 small mb-1">Marhaban ya Ramadhan — Semoga ibadah kita diterima Allah SWT</p>
+      <p class="text-warning small mb-0 fs-5" style="font-family:'Amiri',serif;">تَقَبَّلَ اللّٰهُ مِنَّا وَمِنْكُمْ</p>
+    </footer>
+
+  </div>
+
+  <div class="modal" id="thrModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-dark border border-warning border-2 rounded-4 shadow-lg">
+        
+        <div class="modal-header border-0 pb-0">
+          <button type="button" class="btn-close btn-close-white ms-auto" data-bs-dismiss="modal"></button>
+        </div>
+
+        <div class="modal-body text-center px-4 pb-2 text-light">
+          <img src="congrats.gif" alt="celebrasi" class="img-fluid mb-2" style="max-height: 120px;" />
+
+          <h2 class="text-warning fw-bold mb-1 display-5" style="font-family:'Amiri',serif;">Selamat!</h2>
+          <h3 class="fw-bold mb-3 fs-4">
+            Anda Mendapatkan <span class="text-warning">THR</span>!
+          </h3>
+
+          <div class="d-inline-block px-4 py-3 mb-4 rounded-4 border border-warning bg-warning bg-opacity-10 shadow-sm">
+            <div class="text-white-50 small mb-1" style="letter-spacing:.15em;">TUNJANGAN HARI RAYA</div>
+            <div class="display-4 fw-bold text-warning" id="thr-nominal">Rp 1.000.000</div>
+            <img src="qr dana.jpeg" alt="Amplop THR" class="img-fluid mb-3" style="max-height: 300px;" />
+            <div class="text-white-50 small mt-1">Semoga berkah &amp; bermanfaat</div>
+          </div>
+
+          <p class="text-white-50 mb-3 px-md-5">
+            Minal Aidin Wal Faizin<br/>
+            Mohon maaf lahir dan batin.<br/>
+            Semoga THR ini membawa kebahagiaan untuk keluarga tercinta.
+          </p>
+        </div>
+
+        <div class="modal-footer border-0 justify-content-center gap-3 pt-0 pb-4">
+          <button class="btn btn-warning fw-bold px-4 rounded-pill" onclick="shareModal(event)">
+            <i class="bi bi-share-fill me-2"></i>Bagikan
+          </button>
+          <button class="btn btn-outline-warning px-4 rounded-pill" data-bs-dismiss="modal">
+            <i class="bi bi-hand-thumbs-up-fill me-2"></i>Terima Kasih!
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+
+    (function(){
+      const target = new Date('2026-03-21T00:00:00+07:00').getTime();
+      function update(){
+        const diff = Math.max(target - Date.now(), 0);
+        const d = Math.floor(diff/86400000);
+        const h = Math.floor((diff%86400000)/3600000);
+        const m = Math.floor((diff%3600000)/60000);
+        const s = Math.floor((diff%60000)/1000);
+        document.getElementById('cd-days').textContent  = String(d).padStart(2,'0');
+        document.getElementById('cd-hours').textContent = String(h).padStart(2,'0');
+        document.getElementById('cd-mins').textContent  = String(m).padStart(2,'0');
+        document.getElementById('cd-secs').textContent  = String(s).padStart(2,'0');
+      }
+      update(); setInterval(update, 1000);
+    })();
+
+    (function(){
+      const s = [
+        {id:'pr-imsak',h:4,m:21},{id:'pr-subuh',h:4,m:31},
+        {id:'pr-dzuhur',h:11,m:56},{id:'pr-ashar',h:15,m:2},
+        {id:'pr-maghrib',h:18,m:0},{id:'pr-isya',h:19,m:9}
+      ];
+      const now = new Date(), nowMin = now.getHours()*60+now.getMinutes();
+      let active = 'pr-isya';
+      for(let i=0;i<s.length;i++){ if(nowMin < s[i].h*60+s[i].m){ active=s[i].id; break; } }
+      
+      const activeEl = document.getElementById(active);
+      if(activeEl) {
+        activeEl.classList.add('bg-warning', 'bg-opacity-25');
+      }
+    })();
+
+    document.getElementById('thrModal').addEventListener('show.bs.modal', function(){
+      const amounts = ['5.000','7.000','10.000','15.000','20.000'];
+      document.getElementById('thr-nominal').textContent =
+        'Rp '+amounts[Math.floor(Math.random()*amounts.length)];
+    });
+
+    function shareModal(e){
+      const text = 'https://youtu.be/dQw4w9WgXcQ?si=g_oLTMBWpjijp_zV';
+      if(navigator.share){ navigator.share({title:'THR Ramadan',text}); }
+      else {
+        navigator.clipboard.writeText(text).then(()=>{
+          const btn = e.target.closest('button');
+          const orig = btn.innerHTML;
+          btn.innerHTML = '<i class="bi bi-check2 me-2"></i>Tersalin!';
+          setTimeout(()=>{ btn.innerHTML=orig; },2000);
+        });
+      }
+    }
+  </script>
+</body>
+</html>
