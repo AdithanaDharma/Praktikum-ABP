@@ -1,69 +1,69 @@
-# CodeIgniter 4 Application Starter
+# Dokumentasi Proyek
 
-## What is CodeIgniter?
+Dokumentasi ini berisi hasil tangkapan layar web, tautan presentasi, dan video demonstrasi dari proyek yang dikerjakan.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+## Tangkapan Layar Web
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+Berikut adalah 3 tangkapan layar dari aplikasi web:
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+1. Tangkapan Layar 1
+![Tangkapan Layar 1]()
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+2. Tangkapan Layar 2
+![Tangkapan Layar 2]()
 
-## Installation & updates
+3. Tangkapan Layar 3
+![Tangkapan Layar 3]()
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+## File PowerPoint
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+Berikut adalah tautan menuju file presentasi PowerPoint:
 
-## Setup
+[Tautan File PowerPoint]()
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+## Video Demonstrasi
 
-## Important Change with index.php
+Klik gambar thumbnail di bawah ini untuk melihat video demonstrasi proyek di YouTube:
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+[![Thumbnail Youtube](foto)](link)
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+## Penjelasan Singkat Program
 
-**Please** read the user guide for a better explanation of how CI4 works!
+Aplikasi ini merupakan sebuah sistem web berbasis CRUD (Create, Read, Update, Delete) yang dikembangkan menggunakan framework CodeIgniter 4. Program ini dibuat untuk mempermudah proses pengelolaan data secara digital dan terstruktur dengan antarmuka yang mudah digunakan dan responsif. 
 
-## Repository Management
+## Panduan Menjalankan Program (Clone)
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+Bagi Anda yang ingin meng-clone dan menjalankan program ini di lokal, ikuti langkah-langkah berikut:
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+1. **Clone Repository:**
+   Buka terminal atau CMD dan jalankan perintah berikut:
+   ```bash
+   git clone https://github.com/AdithanaDharma/Praktikum-ABP.git
+   ```
 
-## Server Requirements
+2. **Masuk ke Direktori Proyek:**
+   ```bash
+   cd crud-ci4
+   ```
 
-PHP version 8.2 or higher is required, with the following extensions installed:
+3. **Install Dependencies:**
+   Pastikan Anda telah menginstal Composer. Kemudian jalankan:
+   ```bash
+   composer install
+   ```
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+4. **Konfigurasi Environment:**
 
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - The end of life date for PHP 8.1 was December 31, 2025.
-> - If you are still using below PHP 8.2, you should upgrade immediately.
-> - The end of life date for PHP 8.2 will be December 31, 2026.
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+5. **Lakukan Migrasi Database:**
+   Buat database kosong terlebih dahulu di MySQL/MariaDB sesuai konfigurasi di file `.env`. Setelah itu jalankan perintah berikut untuk migrasi tabel secara otomatis:
+   ```bash
+   php spark migrate
+   ```
 
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+6. **Jalankan Aplikasi:**
+   Nyalakan development server dari CodeIgniter 4 dengan perintah:
+   ```bash
+   php spark serve
+   ```
+   Buka browser dan buka tautan `http://localhost:8080` untuk melihat aplikasi berjalan.
