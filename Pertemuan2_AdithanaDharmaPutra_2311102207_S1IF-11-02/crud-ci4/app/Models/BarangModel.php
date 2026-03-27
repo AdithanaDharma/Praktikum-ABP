@@ -14,7 +14,6 @@ class BarangModel extends Model
     protected $protectFields    = true;
     protected $allowedFields    = ['nama_barang', 'kategori', 'jumlah', 'harga'];
 
-    // Dates
     protected $useTimestamps = true;
     protected $dateFormat    = 'datetime';
     protected $createdField  = 'created_at';
