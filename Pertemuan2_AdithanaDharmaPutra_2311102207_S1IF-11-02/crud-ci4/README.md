@@ -4,28 +4,33 @@ Dokumentasi ini berisi hasil tangkapan layar web, tautan presentasi, dan video d
 
 ## Tangkapan Layar Web
 
-Berikut adalah 3 tangkapan layar dari aplikasi web:
+Berikut adalah beberapa tangkapan layar dari aplikasi web:
 
-1. Tangkapan Layar 1
-![Tangkapan Layar 1]()
+1. Tangkapan Layar Dashboard
+![Cuplikan layar 2026-03-27 215327](https://github.com/user-attachments/assets/f612d3b6-67d2-4516-bfff-b26c855c18ac)
+ 
+2. Tangkapan Layar Kasir
+![Cuplikan layar 2026-03-27 215406](https://github.com/user-attachments/assets/12de8224-f101-45a2-a55e-831e17d36bd3)
 
-2. Tangkapan Layar 2
-![Tangkapan Layar 2]()
+3. Tangkapan Layar Management Barang
+![Cuplikan layar 2026-03-27 215350](https://github.com/user-attachments/assets/8bd26c98-1aa1-4a0a-869c-6c908f938fc3)
 
-3. Tangkapan Layar 3
-![Tangkapan Layar 3]()
+4. Tangkapan Layar modal tambah Barang
+![Cuplikan layar 2026-03-27 215501](https://github.com/user-attachments/assets/d59a2391-e9f8-48b3-8106-66fe16eea1b5)
 
 ## File PowerPoint
 
 Berikut adalah tautan menuju file presentasi PowerPoint:
 
-[Tautan File PowerPoint]()
+([Slide PPT.pdf](https://github.com/user-attachments/files/26308144/Slide.PPT.pdf)
+)
 
 ## Video Demonstrasi
 
 Klik gambar thumbnail di bawah ini untuk melihat video demonstrasi proyek di YouTube:
 
-[![Thumbnail Youtube](foto)](link)
+![Cuplikan layar 2026-03-27 220205](https://github.com/user-attachments/assets/d77f6d77-6241-492f-a007-d89e32289025)
+TAUTAN: https://youtu.be/hXKFJTp-XRM
 
 ## Penjelasan Singkat Program
 
