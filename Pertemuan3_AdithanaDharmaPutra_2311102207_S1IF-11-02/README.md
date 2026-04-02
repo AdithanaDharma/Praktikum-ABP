@@ -5,5 +5,4 @@
 **Kelas:** S1IF-11-02  
 
 ## Hasil Program
-![Screenshot](https://github.com/user-attachments/assets/0e807e25-30d0-428e-8d6e-f95a6a4a951c)
-
+![Screenshot](https://github.com/user-attachments/assets/db013bac-6804-4e06-9022-5848c3ecea0f)
