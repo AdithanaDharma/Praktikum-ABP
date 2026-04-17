@@ -5,6 +5,4 @@
 **Kelas:** S1IF-11-02  
 
 ## Hasil Program
-Berikut adalah tangkapan layar hasil implementasi sistem pendataan dan penilaian mahasiswa menggunakan PHP dan Bootstrap:
-
-![Hasil Eksekusi]()
+![Screenshot](https://github.com/user-attachments/assets/db013bac-6804-4e06-9022-5848c3ecea0f)
