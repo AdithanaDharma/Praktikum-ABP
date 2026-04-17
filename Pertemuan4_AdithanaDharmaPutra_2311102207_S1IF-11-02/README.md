@@ -1,3 +1,8 @@
+Screenshot:
+<img width="1366" height="724" alt="Cuplikan layar 2026-04-17 224000" src="https://github.com/user-attachments/assets/81fcce19-0e5d-4edf-ab36-112f5adfde53" />
+<img width="1366" height="728" alt="Cuplikan layar 2026-04-17 223932" src="https://github.com/user-attachments/assets/69b2be02-9daa-4cae-8c2c-9efa8a7aee19" />
+
+
 # AJAX Fetch Profil
 
 Proyek sederhana ini mendemonstrasikan cara menggunakan **AJAX (Asynchronous JavaScript and XML)** dengan library **jQuery** untuk mengambil data dari server secara dinamis tanpa perlu memuat ulang (refresh) halaman web secara keseluruhan.
