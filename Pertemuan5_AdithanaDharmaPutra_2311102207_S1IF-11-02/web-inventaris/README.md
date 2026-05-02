@@ -1,36 +1,29 @@
-# 📦 Web Inventaris Toko Pak Cokomi & Mas Wowo
+# Web Inventaris Toko Pak Cokomi & Mas Wowo
 
-Selamat datang di sistem manajemen inventaris modern yang dirancang khusus untuk membantu **Pak Cokomi** mengelola stok barang di tokonya **Mas Wowo**. Aplikasi ini dibangun menggunakan framework Laravel dengan fokus pada kemudahan penggunaan dan keamanan.
 
-## 🚀 Fitur Utama
 
-- **Sistem Autentikasi (Laravel Breeze)**: Keamanan terjamin untuk akses data inventaris.
-- **Manajemen Produk (CRUD)**:
-    - **Dashboard Data Table**: Tampilan daftar produk yang rapi dan informatif.
-    - **Form Tambah Produk**: Input data produk baru dengan mudah.
-    - **Form Edit Produk**: Perbarui informasi produk yang sudah ada.
-    - **Hapus dengan Modal Konfirmasi**: Mencegah penghapusan data secara tidak sengaja dengan popup konfirmasi.
-- **Database Seeder & Factory**: Data awal sudah tersedia untuk simulasi belanja Mas Wowo.
-- **Desain Responsif**: Menggunakan Tailwind CSS untuk tampilan yang premium dan nyaman di berbagai perangkat.
-
----
 
 ## 📸 Tangkapan Layar (Screenshots)
 
 *Berikut adalah visualisasi dari aplikasi Web Inventaris:*
 
 ### 1. Halaman Login
-![Halaman Login](https://via.placeholder.com/800x450.png?text=Placeholder+Halaman+Login)
+<img width="1912" height="904" alt="image" src="https://github.com/user-attachments/assets/d840a53f-f09f-4bcd-b41a-76630f1dc4ca" />
 *Sistem masuk yang aman menggunakan Laravel Breeze.*
 
-### 2. Dashboard & Tabel Produk
-![Dashboard Inventaris](https://via.placeholder.com/800x450.png?text=Placeholder+Tabel+Produk)
-*Daftar stok barang milik Pak Cokomi yang siap dibeli Mas Wowo.*
+### 2. Halaman Kasir
+<img width="1482" height="907" alt="image" src="https://github.com/user-attachments/assets/4ee87545-6ca5-483b-a1d3-ba01f4d5c32f" />
 
-### 3. Modal Konfirmasi Hapus
-![Modal Delete](https://via.placeholder.com/800x450.png?text=Placeholder+Modal+Konfirmasi+Hapus)
-*Fitur keamanan tambahan untuk memastikan data tidak terhapus tanpa sengaja.*
 
+### 3. Tabel Produk
+<img width="1833" height="913" alt="image" src="https://github.com/user-attachments/assets/9f464056-76a5-4d95-9acb-26469edd4679" />
+
+
+### 3. Modal Konfirmasi CRUD
+<img width="1603" height="794" alt="image" src="https://github.com/user-attachments/assets/645683ad-021a-4e0a-b7e5-5972c09e707e" />
+<img width="1833" height="913" alt="image" src="https://github.com/user-attachments/assets/9f464056-76a5-4d95-9acb-26469edd4679" />
+<img width="1507" height="771" alt="image" src="https://github.com/user-attachments/assets/639165fa-90d4-4b6b-8aba-449b47fd5dd3" />
+<img width="1415" height="855" alt="image" src="https://github.com/user-attachments/assets/16bb7238-d1b6-4b84-bd37-ffd84795fe49" />
 ---
 
 ## 🛠️ Persiapan & Instalasi
@@ -92,8 +85,6 @@ Data produk disimpan dengan atribut berikut:
 
 ---
 
-## 🤝 Kontribusi
-Project ini dibuat untuk memenuhi tugas Praktikum ABP. Semoga dengan sistem ini, Pak Cokomi bisa makin sukses dagangnya dan Mas Wowo nggak pusing lagi kalau mau belanja!
-
-**Dibuat oleh**: Adithana Dharma Putra (2311102207)
-**Kelas**: S1IF-11-02
+### NAMA: Adithana Dharma Putra
+### NIM: 2311102207
+### Kelas: S1IF-11-02
