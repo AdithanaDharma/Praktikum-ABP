@@ -65,7 +65,7 @@ Ikuti langkah-langkah berikut untuk menjalankan project ini secara lokal:
 6. **Akses Akun Admin Default**
    - **Email**: `admin@admin.com`
    - **Password**: `password`
-
+     Atau sesuai dengan Seeder
 ---
 
 ## 📂 Dokumentasi Project
