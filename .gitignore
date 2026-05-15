@@ -18,11 +18,6 @@ migrate_working_dir/
 *.iws
 .idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
 # Flutter/Dart/Pub related
 **/doc/api/
 **/ios/Flutter/.last_build_id
@@ -43,3 +38,12 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Files from remote master
+Pertemuan2_AdithanaDharmaPutra_2311102207_S1IF-11-02.txt
+Pertemuan1_AdithanaDharmaPutra_2311102207_S1IF-11-02/fitur.jpg
+Pertemuan1_AdithanaDharmaPutra_2311102207_S1IF-11-02/hero.jpg
+Pertemuan1_AdithanaDharmaPutra_2311102207_S1IF-11-02/modal window.jpg
+Pertemuan1_AdithanaDharmaPutra_2311102207_S1IF-11-02/README.md
+Pertemuan2_AdithanaDharmaPutra_2311102207_S1IF-11-02/crud-ci4/Penjelasan_Logika_MVC_Aplikasi.txt
+Pertemuan3_AdithanaDharmaPutra_2311102207_S1IF-11-02/Screenshot.jpg

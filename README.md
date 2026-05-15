@@ -24,3 +24,7 @@ Berikut adalah penjelasan singkat untuk setiap widget yang digunakan dalam proye
 6. **Stack**
    Widget yang memungkinkan kita untuk menumpuk satu widget di atas widget lainnya. Widget pertama dalam daftar `children` berada di paling bawah, dan widget terakhir berada di paling atas.
 
+---
+
+# Note: 
+### Setiap screenshot, laporan, slide ppt, Atau output artefak lainnya dilampirkan di readme.md pada tiap floder pertemuan. Baik file output tersebut ada di github maupun di host di 3rd party.
