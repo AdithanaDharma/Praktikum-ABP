@@ -1,49 +1,53 @@
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.build/
-.buildlog/
-.history
-.svn/
-.swiftpm/
-migrate_working_dir/
-
-# IntelliJ related
+# IDE files
+.idea/
+.vscode/
 *.iml
 *.ipr
 *.iws
-.idea/
 
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
-/coverage/
+# System files
+.DS_Store
+Thumbs.db
 
-# Symbolication related
-app.*.symbols
+# General build/temp folders
+**/build/
+**/bin/
+**/obj/
+**/out/
+**/dist/
 
-# Obfuscation related
-app.*.map.json
+# Flutter / Dart
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+**/pubspec.lock
+**/analysis_options.yaml
 
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+# PHP / Laravel / CodeIgniter
+**/vendor/
+**/.env
+**/writable/cache/*
+**/writable/debugbar/*
+**/writable/logs/*
+**/writable/session/*
+!**/writable/index.html
+!**/writable/.htaccess
+**/storage/*.key
+**/storage/framework/cache/data/*
+**/storage/framework/sessions/*
+**/storage/framework/testing/*
+**/storage/framework/views/*
+**/storage/logs/*
 
-# Files from remote master
-Pertemuan2_AdithanaDharmaPutra_2311102207_S1IF-11-02.txt
-Pertemuan1_AdithanaDharmaPutra_2311102207_S1IF-11-02/fitur.jpg
-Pertemuan1_AdithanaDharmaPutra_2311102207_S1IF-11-02/hero.jpg
-Pertemuan1_AdithanaDharmaPutra_2311102207_S1IF-11-02/modal window.jpg
-Pertemuan1_AdithanaDharmaPutra_2311102207_S1IF-11-02/README.md
-Pertemuan2_AdithanaDharmaPutra_2311102207_S1IF-11-02/crud-ci4/Penjelasan_Logika_MVC_Aplikasi.txt
-Pertemuan3_AdithanaDharmaPutra_2311102207_S1IF-11-02/Screenshot.jpg
+# Node.js
+**/node_modules/
+**/npm-debug.log*
+
+# Android specific
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+*.keystore
+*.jks

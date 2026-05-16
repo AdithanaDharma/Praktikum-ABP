@@ -1,0 +1,76 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter --no-color run --machine --track-widget-creation --device-id=edge --start-paused --dart-define=flutter.inspector.structuredErrors=true --devtools-server-address=http://127.0.0.1:9100 lib\main.dart
+
+## exception
+
+OutOfMemoryError: Out of Memory
+
+```
+#0      new Uint8List (dart:typed_data-patch/typed_data_patch.dart:2403:3)
+#1      _File.readAsBytesSync (dart:io/file_impl.dart:675:16)
+#2      ForwardingFile.readAsBytesSync (package:file/src/forwarding/forwarding_file.dart:91:43)
+#3      ForwardingFile.readAsBytesSync (package:file/src/forwarding/forwarding_file.dart:91:43)
+#4      WebMemoryFS.write (package:flutter_tools/src/web/memory_fs.dart:29:42)
+#5      WebDevFS.update (package:flutter_tools/src/isolated/devfs_web.dart:403:44)
+#6      _rootRunUnary (dart:async/zone_root.dart:48:47)
+#7      _CustomZone.runUnary (dart:async/zone.dart:733:19)
+#8      Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:948:45)
+#9      Future._propagateToListeners (dart:async/future_impl.dart:977:13)
+#10     Future._completeWithValue (dart:async/future_impl.dart:720:5)
+#11     Future._asyncCompleteWithValue.<anonymous closure> (dart:async/future_impl.dart:804:7)
+#12     _rootRun (dart:async/zone_root.dart:35:13)
+#13     _CustomZone.run (dart:async/zone.dart:726:19)
+#14     _CustomZone.runGuarded (dart:async/zone.dart:625:7)
+#15     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:666:23)
+#16     _microtaskLoop (dart:async/schedule_microtask.dart:40:35)
+#17     _startMicrotaskLoop (dart:async/schedule_microtask.dart:49:5)
+#18     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:127:13)
+#19     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194:5)
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 3.41.7, on Microsoft Windows [Version 10.0.19045.6466], locale id-ID) [982ms]
+    • Flutter version 3.41.7 on channel stable at C:\src\flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision cc0734ac71 (4 weeks ago), 2026-04-15 21:21:08 -0700
+    • Engine revision 59aa584fdf
+    • Dart version 3.11.5
+    • DevTools version 2.54.2
+    • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios, cli-animations, enable-native-assets, omit-legacy-version-file, enable-lldb-debugging, enable-uiscene-migration
+
+[!] Windows Version (Problem detected with Windows installation) [1.033ms]
+    ! Get-Process failed to complete
+
+[!] Android toolchain - develop for Android devices (Android SDK version 36.0.0) [1.226ms]
+    • Android SDK at C:\Users\User\AppData\Local\Android\sdk
+    • Emulator version 36.5.10.0 (build_id 15081367) (CL:N/A)
+    • Platform android-36.1, build-tools 36.0.0
+    • Java binary at: C:\Program Files\Android\Android Studio\jbr\bin\java
+      This is the JDK bundled with the latest Android Studio installation on this machine.
+      To manually set the JDK path, use: `flutter config --jdk-dir="path/to/jdk"`.
+    ✗ Could not determine java version
+
+[✓] Chrome - develop for the web [225ms]
+    • Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[✓] Visual Studio - develop Windows apps (Visual Studio Community 2022 17.11.5) [223ms]
+    • Visual Studio at C:\Program Files\Microsoft Visual Studio\2022\Community
+    • Visual Studio Community 2022 version 17.11.35327.3
+    • Windows 10 SDK version 10.0.22621.0
+
+[✓] Connected device (3 available) [410ms]
+    • Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.19045.6466]
+    • Chrome (web)      • chrome  • web-javascript • Google Chrome 148.0.7778.167
+    • Edge (web)        • edge    • web-javascript • Microsoft Edge 148.0.3967.54
+
+[✓] Network resources [1.157ms]
+    • All expected network resources are available.
+
+! Doctor found issues in 2 categories.
+```
