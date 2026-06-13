@@ -46,3 +46,6 @@ app.*.map.json
 
 # Custom ignore for reports
 Laporan_Pertemuan9.md
+
+# Firebase configuration
+android/app/google-services.json
